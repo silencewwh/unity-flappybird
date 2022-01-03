@@ -58,6 +58,7 @@
     <Compile Include="Assets\Score.cs" />
     <Compile Include="Assets\gamemanager.cs" />
     <Compile Include="Assets\flyinglittlebird.cs" />
+    <Compile Include="Assets\free.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

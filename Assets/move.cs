@@ -14,6 +14,7 @@ public class move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += Vector3.left * speed * Time.deltaTime;
+        gamemanager.difficulty = gamemanager.count;
+        transform.position += Vector3.left * speed * Time.deltaTime *Mathf.Exp( (gamemanager.difficulty + 1)/200);
     }
 }
