@@ -23,7 +23,7 @@ public class pipespawner : MonoBehaviour
     {
         
         num = Mathf.Abs(Random.Range(-1,4));
-        if (timer > maxTime) 
+        if (timer > maxTime&&gamemanager.stopflag==0) 
         {
             switch (num)
             {

@@ -154,6 +154,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameoverCanvas: {fileID: 0}
   GamestartCanvas: {fileID: 1562718941}
+  ScoreCanvas: {fileID: 0}
+  RanksCanvas: {fileID: 0}
+  ranktext: {fileID: 0}
+  contibuttom: {fileID: 0}
+  rank: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!4 &256304710
 Transform:
   m_ObjectHideFlags: 0
@@ -454,7 +459,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 10, y: 325}
-  m_SizeDelta: {x: 298.9644, y: 64.678}
+  m_SizeDelta: {x: 600, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1191576064
 MonoBehaviour:
@@ -528,7 +533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.3682, y: 185.5937}
+  m_AnchoredPosition: {x: 10, y: 185.5937}
   m_SizeDelta: {x: 365.41, y: 92.4905}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1218489986
@@ -835,7 +840,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -116}
+  m_AnchoredPosition: {x: 10, y: -116}
   m_SizeDelta: {x: 356.6694, y: 168.3337}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1843695901
@@ -1072,6 +1077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: 1.4
   gamemanager: {fileID: 256304709}
+  ScoreCanvas: {fileID: 0}
 --- !u!70 &2011350845
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

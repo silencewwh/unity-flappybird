@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2048
     height: 1068.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
@@ -73,10 +73,10 @@ MonoBehaviour:
     y: 30
     width: 2048
     height: 1019
-  m_MinSize: {x: 678, y: 221}
-  m_MaxSize: {x: 12003, y: 4021}
+  m_MinSize: {x: 677, y: 221}
+  m_MaxSize: {x: 12002, y: 4021}
   vertical: 0
-  controlID: 97
+  controlID: 25
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,9 +92,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1670.4
+    x: 1670
     y: 0
-    width: 377.59998
+    width: 378
     height: 1019
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
@@ -122,8 +122,8 @@ MonoBehaviour:
     y: 0
     width: 280
     height: 1019
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -225,7 +225,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1670.4
     y: 73.6
-    width: 376.59998
+    width: 377
     height: 998
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -235,7 +235,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 160.79999
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -268,9 +268,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: de420000
-      m_LastClickedID: 17118
-      m_ExpandedIDs: a6f9ffff64fbffffd242000006430000
+      m_SelectedIDs: 44510000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 1ae4fefff0e8feffe8ecfeff1804ffff2e04ffffbe04ffffa21effff4e24ffff3c50ffff6e51ffff0854ffffa460ffffa675ffffca89ffffaa8dffffb691ffff82c0ffff64fbffffd242000010430000e078000004790000307900004e950000729500009e950000329d0000869f0000aa9f0000d69f0000b2a30000d6a30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -286,7 +286,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -330,9 +330,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 564.7598, y: 1053.7549, z: -200.48848}
+    m_Target: {x: 2.238622, y: -1.2215059, z: -1176.2194}
     speed: 2
-    m_Value: {x: 564.7598, y: 1053.7549, z: -200.48848}
+    m_Value: {x: 2.238622, y: -1.2215059, z: -1176.2194}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -383,9 +383,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 556.69147
+    m_Target: 6.7804546
     speed: 2
-    m_Value: 556.69147
+    m_Value: 6.7804546
   m_Ortho:
     m_Target: 1
     speed: 2

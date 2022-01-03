@@ -11,15 +11,20 @@ public class Score : MonoBehaviour
     {
         ScoreText.text = "00";
     }
-
     // Update is called once per frame
     void Update()
     {
-        ScoreText.text = "" + gamemanager.count;
+        if (gamemanager.stopflag == 1)
+        {
+            Stopcount();
+        }
+        else
+        {
+            ScoreText.text = "" + gamemanager.count;
+        }
     }
-    void stopcount() 
+    public void Stopcount()
     {
-
         ScoreText.text = "STOP";
     }
 }
